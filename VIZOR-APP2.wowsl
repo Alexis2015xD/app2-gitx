@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>26</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>VIZOR-APP2</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>louvers,dribbles,glass_parallax,book,slices</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/megalopolis/</ImageTemplate>
+            <ImageTemplateName>Megalopolis</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#ffffff</TemplateColor>
+            <TemplateFont>Tenor Sans</TemplateFont>
+            <TemplateName>megalopolis</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2/imagenes/dddhd.png</url>
+                <title>dddhd</title>
+                <filesize>40561</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2/imagenes/lg-magna-1baja.jpg</url>
+                <title>lg-magna-1baja</title>
+                <filesize>67732</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2/imagenes/moto z play mods.jpeg</url>
+                <title>moto z play mods</title>
+                <filesize>19847</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2/imagenes/moto zzzz.jpg</url>
+                <title>moto zzzz</title>
+                <filesize>43495</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2/imagenes/Moto-G2-Producto-Finalmedia.jpg</url>
+                <title>Moto-G2-Producto-Finalmedia</title>
+                <filesize>46531</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2/imagenes/moto-z-fb2altta.jpg</url>
+                <title>moto-z-fb2altta</title>
+                <filesize>185014</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2/imagenes/s7.png</url>
+                <title>s7</title>
+                <filesize>46634</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2/imagenes/Samsung-Galaxy-S8-color-negro-700x500.jpg</url>
+                <title>Samsung-Galaxy-S8-color-negro-700x500</title>
+                <filesize>150331</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2/imagenes/Samsung-Galaxy-S8-Destacada-700x500-700x500.jpg</url>
+                <title>Samsung-Galaxy-S8-Destacada-700x500-700x500</title>
+                <filesize>274209</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2/imagenes/suwIFMqj.jpg</url>
+                <title>suwIFMqj</title>
+                <filesize>18136</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2/imagenes/untitled.png</url>
+                <title>untitled</title>
+                <filesize>93984</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/APLICACIONES EN DW/app2/imagenes/z play proyector.jpg</url>
+                <title>z play proyector</title>
+                <filesize>43495</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

@@ -1,0 +1,336 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SEGUNDO APLICACION</title>
+
+   <!--grupo css-->
+   <link rel="stylesheet" href="css/theme-app1.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+   <link rel="stylesheet"href="css/jquery.mobile.structure-1.4.5.min.css"/>
+   <!--grupo javascript-->
+   <script src="js/jquery-1.11.2.min.js"></script>
+   <script src="js/jquery.mobile-1.4.5.min.js"></script>
+   <script src="js/acciones.js"></script>
+   <script src="phonegap.js"></script>
+   <script type="text/javascript">
+   
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+   </script>
+   <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+ <body onLoad="MM_preloadImages('imagenes/pixie4.png','imagenes/xa.png','imagenes/moto z play mods.jpeg','imagenes/Samsung-Galaxy-S8-color-negro-700x500.jpg')">
+
+   <div data-role="page" id="pricipal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar"  data-back-btn-theme="b">
+       <h1>Telefonia Celular</h1>
+       </div>
+       <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+           <h1>Moto Z Play:</h1>
+         <div>
+          <p>Imagen Del Telefono :</p>
+          <br>
+         </div>
+         <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/pixie4.png',1)"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagen9','','imagenes/moto z play mods.jpeg',1)"><img src="imagenes/z play proyector.jpg" width="50%" height="50%" id="imagen9"></a></div>
+         </div>
+<div data-role="collapsible" data-content-theme="false">
+           <h1>Samsung Galaxy S8</h1>
+         <div>
+          <p>Imagen Del Telefono </p>
+          <br>
+         </div>
+         <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/pixie4.png',1)"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image190','','imagenes/Samsung-Galaxy-S8-color-negro-700x500.jpg',1)"><img src="imagenes/Samsung-Galaxy-S8-Destacada-700x500-700x500.jpg" width="50%" height="50%" id="Image190"></a> </div>
+         </div>
+
+     </div>
+          <div>
+            <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+             <li class="ui-first-child">
+               <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>DEFINICION</h2>
+                  <p>MUESTRA LA DEFINICION</p>
+                 </a>
+                </li>
+                <li class="ui-first-child ui-last-child">
+                  <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    <h2>HISTORIA</h2>
+                    <p>MUESTRA LA HISTORIA DE LOS CELULARES</p>
+                   </a>
+                  </li>
+                  <li class="ui-first-child ui-last-child">
+                    <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    <h2>CLASIFICACION</h2>
+                    <p>CLASIFICACION DE CELULAR DEPENDIENDO DE SU GAMA</p>
+                   </a>
+                  </li>
+                  <li class="ui-first-child ui-last-child">
+                   <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    <h2>COMPANIAS CELULARES</h2>
+                    <p>MUESTRA 4 COMPANIAS CELULARES</p>
+                   </a>
+                   </li>
+                      </ul>
+                      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/dddhd.png" alt="dddhd" title="dddhd" id="wows1_0"/></li>
+		<li><img src="data1/images/lgmagna1baja.jpg" alt="lg-magna-1baja" title="lg-magna-1baja" id="wows1_1"/></li>
+		<li><img src="data1/images/moto_z_play_mods.jpg" alt="moto z play mods" title="moto z play mods" id="wows1_2"/></li>
+		<li><img src="data1/images/moto_zzzz.jpg" alt="moto zzzz" title="moto zzzz" id="wows1_3"/></li>
+		<li><img src="data1/images/motog2productofinalmedia.jpg" alt="Moto-G2-Producto-Finalmedia" title="Moto-G2-Producto-Finalmedia" id="wows1_4"/></li>
+		<li><img src="data1/images/motozfb2altta.jpg" alt="moto-z-fb2altta" title="moto-z-fb2altta" id="wows1_5"/></li>
+		<li><img src="data1/images/s7.png" alt="s7" title="s7" id="wows1_6"/></li>
+		<li><img src="data1/images/samsunggalaxys8colornegro700x500.jpg" alt="Samsung-Galaxy-S8-color-negro-700x500" title="Samsung-Galaxy-S8-color-negro-700x500" id="wows1_7"/></li>
+		<li><img src="data1/images/samsunggalaxys8destacada700x500700x500.jpg" alt="Samsung-Galaxy-S8-Destacada-700x500-700x500" title="Samsung-Galaxy-S8-Destacada-700x500-700x500" id="wows1_8"/></li>
+		<li><img src="data1/images/suwifmqj.jpg" alt="suwIFMqj" title="suwIFMqj" id="wows1_9"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/untitled.png" alt="http://wowslider.com/" title="untitled" id="wows1_10"/></a></li>
+		<li><img src="data1/images/z_play_proyector.jpg" alt="z play proyector" title="z play proyector" id="wows1_11"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="dddhd"><span><img src="data1/tooltips/dddhd.png" alt="dddhd"/>1</span></a>
+		<a href="#" title="lg-magna-1baja"><span><img src="data1/tooltips/lgmagna1baja.jpg" alt="lg-magna-1baja"/>2</span></a>
+		<a href="#" title="moto z play mods"><span><img src="data1/tooltips/moto_z_play_mods.jpg" alt="moto z play mods"/>3</span></a>
+		<a href="#" title="moto zzzz"><span><img src="data1/tooltips/moto_zzzz.jpg" alt="moto zzzz"/>4</span></a>
+		<a href="#" title="Moto-G2-Producto-Finalmedia"><span><img src="data1/tooltips/motog2productofinalmedia.jpg" alt="Moto-G2-Producto-Finalmedia"/>5</span></a>
+		<a href="#" title="moto-z-fb2altta"><span><img src="data1/tooltips/motozfb2altta.jpg" alt="moto-z-fb2altta"/>6</span></a>
+		<a href="#" title="s7"><span><img src="data1/tooltips/s7.png" alt="s7"/>7</span></a>
+		<a href="#" title="Samsung-Galaxy-S8-color-negro-700x500"><span><img src="data1/tooltips/samsunggalaxys8colornegro700x500.jpg" alt="Samsung-Galaxy-S8-color-negro-700x500"/>8</span></a>
+		<a href="#" title="Samsung-Galaxy-S8-Destacada-700x500-700x500"><span><img src="data1/tooltips/samsunggalaxys8destacada700x500700x500.jpg" alt="Samsung-Galaxy-S8-Destacada-700x500-700x500"/>9</span></a>
+		<a href="#" title="suwIFMqj"><span><img src="data1/tooltips/suwifmqj.jpg" alt="suwIFMqj"/>10</span></a>
+		<a href="#" title="untitled"><span><img src="data1/tooltips/untitled.png" alt="untitled"/>11</span></a>
+		<a href="#" title="z play proyector"><span><img src="data1/tooltips/z_play_proyector.jpg" alt="z play proyector"/>12</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">image slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+                     </div>
+                     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                      <div>
+                        <img src="imagenes/iPhone-icon.png" width="5%" height="5%">
+                       </div>
+                       <div>
+                           <h4>APLICACION DOS</h4>
+                           <h4>MARIO ALEXIS ORTEGA HERNANDEZ</h4>
+                           </div>
+                         </div>
+                         </div>
+                         <div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+                          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                          <h1>DEFINICIONr</h1>
+                         </div>
+                         <div data-role="content" align="center">
+                           <div>
+                             <h2>Se conoce como celular al dispositivo inalámbrico electrónico que está preparado para tener acceso a la telefonía celular, también conocida como móvil.
+
+                             <div data-role="collapsible" data-content-theme="false">
+           <h1>QUE ES UN CELULAR:</h1>
+         <div>
+          <p>¿Que es ?</p>
+          <br>
+         </div>
+         <div>
+          <img src="imagenes/untitled.png" width="50%" height="50%"> </div>
+           </div>
+Celular objeto u aparato electrónico derivado de muchas innovaciones actualmente el mas usado por el mundo.
+teléfono celular (móvil), un dispositivo electrónico para telecomunicaciones personales con red inalámbrica.
+ <div data-role="collapsible" data-content-theme="false">
+           <h1>Usos Del Telefono Celular</h1>
+         <div>
+          <p>Diferentes Usos</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/moto z play mods.jpeg" width="50%" height="50%"> </div>
+           </div>
+Los celulares an tenido muchas inovaciones asta el punto en que se a vuelto indispensable para el ser humano 
+desde nuestro movil podemos acceder a nuestras redes sociales, ver videos, comunicarnos,tomarnos fotos y todo esto con un solo dedo.
+ <div data-role="collapsible" data-content-theme="false">
+           <h1>Dispositivo movil</h1>
+         <div>
+          <p>Unos de los celulares mas populares y mejores en gama es el GalaxY S7 y proximamente el Samsung Galaxy S8</p>
+          <img src="imagenes/s7.png" width="50%" height="50%"><br>
+         </div>
+         <div></div>
+           </div>
+<h2>
+                           </div>
+                          </div>
+                          <div data-role="footer" data-theme="a" data-position="fixed">
+                            <h4>Aplicacion Dos,MAOH</h4>
+                          </div>
+                       </div>
+                       
+                       
+                       <div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                           <h1>HISTORIA</h1>
+                         </div>
+                           <div data-role="content" align="center">
+                            <div>
+                              <h2>En las primeras etapas de la ingeniería de radio, se concibió un servicio de radio móvil de mano. En 1917, el inventor finlandés Eric Tigerstedt presentó una patente para un "Teléfono plegable de bolsillo con un micrófono de carbono muy delgado". Los primeros predecesores de los teléfonos celulares incluyen las comunicaciones de radio analógicas de barcos y trenes.Los avances de la telefonía móvil se han trazado en "generaciones" sucesivas, empezando por los servicios "0G" (generación cero), tales como Servicio de Telefonía Móvil de Sistemas de Bell y su sucesor, el Servicio de Telefonía Móvil Mejorada. Estos sistemas "0G" no eran celular, soportaban algunas llamadas simultáneas, y eran muy caros.
+<div data-role="collapsible" data-content-theme="false">
+           <h1>Motorola DynaTAC 8000x:</h1>
+         <div>
+          <p>Primer Celular Distribuido Por Motorola</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/dinatac.jpg" width="50%" height="50%"> </div>
+           </div>
+                 El primer teléfono móvil celular de mano disponible comercialmente en el mercado, 1984.
+El primer teléfono celular de mano fue presentado por Motorola en 1973. La primera red celular automatizada comercial fue lanzada en Japón por Nippon Telegraph and Telephone en 1979. Esto fue seguido en 1981 por el lanzamiento simultáneo del sistema de Telefonía Móvil Nórdica (NMT) en Dinamarca, Finlandia, Noruega y Suecia.6 Muchos otros países siguieron aplicándose en la primera mitad de la década de 1980. Estos sistemas de primera generación (1G) podían hacer llamadas simultáneas más lejos, pero todavía se utilizaba la tecnología analógica.
+En 1991, la segunda generación (2G) de tecnología celular digital fue lanzada en Finlandia por Radiolinja en el estándar GSM. Esto provocó la competencia en el sector ya que los nuevos operadores desafiaron a los operadores de red 1G existentes.
+Para el año 2009, se hizo evidente que, en algún momento, las redes 3G se verían abrumadas por el crecimiento de las aplicaciones de banda ancha, tales como transmisión multimedia.7 En consecuencia, la industria comenzó a buscar a las tecnologías de datos de cuarta generación optimizadas, con la promesa de mejorar la velocidad hasta diez veces sobre tecnologías 3G existentes. Las dos primeras tecnologías disponibles en el mercado facturadas como 4G eran el estándar WiMAX, ofrecido en Norteamérica por Sprint, y el estándar LTE, quien se ofreció por primera vez en Escandinavia por TeliaSonera.
+</h2></div></div>
+                             <div data-role="collapsible" data-content-theme="false">
+           <h1>Evolucion De Los Dispositivoz:</h1>
+         <div>
+          <p>Evolucion Del Celular</p>
+          <br>
+         </div>
+         <div>
+          <img src="imagenes/IPHONES.png" width="50%" height="50%"> </div>
+                </div>
+                 <div data-role="collapsible" data-content-theme="false">
+           <h1>Celulares Populares En SusTiempos</h1>
+         <div>
+          <p>Uno de los mejores celulares de ase años</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/thTJUF22Y3.jpg" width="50%" height="50%"> </div>
+                </div>
+                             <div data-role="footer" data-theme="a" data-position="fixed">
+                                <h4>Aplicacion,MAOH</h4>
+                             </div>
+                              </div>
+                              
+                              
+         <div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+             <h1>Clasificacion de los telefonos celulares</h1>
+            </div>
+             <div data-role="content" align="center">
+              <div>
+                <h2>Celulares de baja gama: bajo este nombre se identifican a aquellos teléfonos móviles que cuentan si bien cuentan con una cámara de fotos, esta es de baja calidad. Además de esto, incluyen un reproductor de música aunque de los más básicos, al igual que la memoria que presentan, que es bastante limitada. Los celulares de baja gama tampoco incluyen pantalla táctil y ésta suele ser de tamaño reducido. La conexión a Internet que ofrecen es bastante limitada y no cuentan con 3G. A pesar de que estos dispositivos son bastante limitados, siguen siendo muy utilizados por los usuarios ya que ofrecen servicios que, para quienes no son muy exigentes o lo usan de forma esporádica,  satisfacen las necesidades que estos usuarios pueden tener, principalmente la de mantenerse comunicados con otros usuarios.</h2>
+                <div data-role="collapsible" data-content-theme="false">
+           <h1>Telefono de gama baja:</h1>
+         <div>
+          <p>LG Magna</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/lg-magna.jpg" width="50%" height="50%"> </div>
+                </div>
+               </div>
+              </div>
+              <h2>Celulares de media gama: estos celulares, en cambio, ofrecen pantallas un poco más grandes que los anteriores, por lo que su calidad es bastante mayor y resultan mucho más prácticas para los usuarios. Además de esto, la cámara de fotos que tienen es de mayor calidad, al igual que los reproductores de MP3. Estos teléfonos móviles también ofrecen juegos, mensaje de texto, calculadora y distintas aplicaciones. Con respecto a la conexión a Internet, permite navegar con HTML y puede ocurrir que algunos modelos cuenten con 3G.</h2>
+              <div data-role="collapsible" data-content-theme="false">
+           <h1>Telefono de gama media:</h1>
+         <div>
+          <p>Moto G2</p>
+          <br>
+         </div>
+         <div>
+          <img src="imagenes/Moto-G2-Producto-Finalmedia.jpg" width="50%" height="50%"> </div>
+           </div>
+           <h2>Celulares de alta gama: estos dispositivos son más completos y avanzados que los modelos anteriores. Entre otras cosas, la conexión a Internet es superior y sí ofrecen 3G. Además, la pantalla es de grandes dimensiones, excelente calidad y táctil. Por otro lado, estos teléfonos cuentas con reproductores de música muy avanzados, Bluetooth, cámara para grabar y sacar fotos, brújula digital y muchas otras aplicaciones y juegos que hacen del celular una excelente opción no sólo para mantenerse conectado con otros usuarios sino también como medio de entretenimiento y de información.</h2>
+            <div data-role="collapsible" data-content-theme="false">
+           <h1>Telefono de gama alta:</h1>
+         <div>
+          <p>Moto Z </p>
+          <br>
+         </div>
+         <div>
+          <img src="imagenes/moto-z-fb2altta.jpg" width="50%" height="50%"> </div>
+           </div> 
+           <div data-role="footer" data-theme="a" data-position="fixed">
+              <h4>Aplicacion dos,MAOH</h4>
+            </div>
+            </div>
+            
+            
+           <div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                <h1>Compañias Telefonicas</h1>
+              </div>
+              <div data-role="content" align="center">
+               <div>
+                 <h2> <div data-role="collapsible" data-content-theme="false">
+           <h1>Telcel:</h1>
+         <div>
+          <p>Logo:</p>
+          <br>
+         </div>
+         <div>
+        <a href="http://www.telcel.com/"  > <img src="imagenes/telcel-logo.jpg" width="50%" height="50%"> </a> </div>
+                </div>
+                 <div data-role="collapsible" data-content-theme="false">
+           <h1>Weex:</h1>
+         <div>
+          <p>Logo:</p>
+          <br>
+         </div>
+         <div>
+         <a href="http://weex.mx/"  > <img src="imagenes/suwIFMqj.jpg" width="50%" height="50%"> </a></div>
+                </div>
+                 <div data-role="collapsible" data-content-theme="false">
+           <h1>T&At:</h1>
+         <div>
+          <p>Logo:</p>
+          <br>
+         </div>
+         <div>
+         <a href="https://www.att.com.mx/index.html?gclid=CJbQ3ZrljdMCFUK2wAodvFUACA&gclsrc=aw.ds" >    <img src="imagenes/T&AT.png" width="50%" height="50%"> </a>  </div>
+                </div> 
+                 <div data-role="collapsible" data-content-theme="false">
+           <h1>Unefon:</h1>
+         <div>
+          <p>Logo:</p>
+          <br>
+         </div>
+         <div>
+      <a href="https://www.unefon.com.mx/?gclid=CLzSs5HljdMCFQERaQodUnkMJQ&gclsrc=aw.ds" </a>      <img src="imagenes/Unefon.png"width="50%" height="50%" alt="gamaalta"> </div>
+                </div>  
+                </h2>
+               </div>
+              </div>
+             <div data-role="footer" data-theme="a" data-position="fixed">
+                  <h4>Aplicaciones,MAOH</h4>
+             </div>
+             </div>
+             
+              
+              
+              
+</body>
+</html>
